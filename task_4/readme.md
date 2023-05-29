@@ -33,11 +33,19 @@
     ```javascript
     function renderProductsCards(json){
        // дальнейшие действия требуется выполнять тут
+       // Вызовите в функции renderProductsCards функцию clearProducts() — она уже написана в коде, просто вызовите её таким образом: 
+       clearProducts();
+       // Создайте в функции renderProductsCards переменную products.
+    let pproducts
+        // Присвойте переменной products результат выполнения функции parseProducts, передав в неё JSON-аргумент функции следующим образом:
+    products = parseProducts(json);
+        // Запишите в переменную length значение свойства products.length.
+    let
     }
     ```
 2. Вызовите в функции renderProductsCards функцию clearProducts() — она уже написана в коде, просто вызовите её таким образом: 
     ```javascript
-    clearProducts();
+     clearProducts();
     ```
 3. Создайте в функции renderProductsCards переменную products.
 4. Присвойте переменной products результат выполнения функции parseProducts, передав в неё JSON-аргумент функции следующим образом:
